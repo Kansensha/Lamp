@@ -666,8 +666,8 @@ rules:
 
   - "GEOSITE,category-ads-all,🛑 AdBlock"
   - "RULE-SET,anti-AD,🛑 AdBlock"
-  - "RULE-SET,Cats-Team,🛑 AdBlock"
   - "RULE-SET,AWAvenue,🛑 AdBlock"
+  - "RULE-SET,Cats-Team,🛑 AdBlock"
   - "RULE-SET,Heidai,🛑 AdBlock"
   - "RULE-SET,BanAD,🛑 AdBlock"
   - "RULE-SET,BanProgramAD,🛑 AdBlock"
