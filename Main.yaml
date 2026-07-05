@@ -386,9 +386,23 @@ rule-providers:
     format: text
     type: http
 
+  anti-AD:
+    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/mihomo.mrs
+    path: ./ruleset/anti-AD-mihomo.mrs
+    behavior: domain
+    interval: 86400
+    format: mrs
+    type: http
   AWAvenue:
     url: https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Clash.mrs
     path: ./ruleset/AWAvenue-Ads-Rule-Clash.mrs
+    behavior: domain
+    interval: 86400
+    format: mrs
+    type: http
+  Cats-Team:
+    url: https://adrules.top/adrules-mihomo.mrs
+    path: ./ruleset/Cats-Team-adrules-mihomo.mrs
     behavior: domain
     interval: 86400
     format: mrs
@@ -400,13 +414,7 @@ rule-providers:
     interval: 86400
     format: mrs
     type: http
-  anti-AD:
-    url: https://raw.githubusercontent.com/privacy-protection-tools/anti-ad.github.io/master/docs/mihomo.mrs
-    path: ./ruleset/anti-AD-mihomo.mrs
-    behavior: domain
-    interval: 86400
-    format: mrs
-    type: http
+
   BanAD:
     url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
     path: ./ruleset/BanAD.list
@@ -657,9 +665,10 @@ rules:
   - "GEOIP,private,💠 Direct,no-resolve"
 
   - "GEOSITE,category-ads-all,🛑 AdBlock"
+  - "RULE-SET,anti-AD,🛑 AdBlock"
+  - "RULE-SET,Cats-Team,🛑 AdBlock"
   - "RULE-SET,AWAvenue,🛑 AdBlock"
   - "RULE-SET,Heidai,🛑 AdBlock"
-  - "RULE-SET,anti-AD,🛑 AdBlock"
   - "RULE-SET,BanAD,🛑 AdBlock"
   - "RULE-SET,BanProgramAD,🛑 AdBlock"
   - "RULE-SET,BanEasyList,🛑 AdBlock"
