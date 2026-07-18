@@ -67,14 +67,14 @@ DOMAIN-SUFFIX,as174.de
 # UHD
 DOMAIN-SUFFIX,uhdnow.com
 
-# EchoFlix
-DOMAIN-SUFFIX,echoflix.de
-
 # GUAI PRO
 DOMAIN-SUFFIX,764374236.xyz
 
 # WeEmby
 DOMAIN-SUFFIX,wedg.top
 
-# Luminous
-DOMAIN-KEYWORD,lunarisvault
+# EchoFlix
+DOMAIN-SUFFIX,echoflix.de
+
+# Feimu
+DOMAIN-SUFFIX,feimu.tv
