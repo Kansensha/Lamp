@@ -801,9 +801,9 @@ dns:
       - https://dns.quad9.net/dns-query
   respect-rules: true
   proxy-server-nameserver:
-    1.1.1.1
-    8.8.8.8
-    9.9.9.9
+    - 1.1.1.1
+    - 8.8.8.8
+    - 9.9.9.9
     # 2026 07 开始疑似有 DNS 污染
     #- https://dns.alidns.com/dns-query
     #- https://doh.pub/dns-query
