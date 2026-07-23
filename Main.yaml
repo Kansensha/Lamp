@@ -801,11 +801,10 @@ dns:
       - https://dns.quad9.net/dns-query
   respect-rules: true
   proxy-server-nameserver:
-    - 114.114.114.114
     # 2026 07 开始疑似有 DNS 污染
-    #- https://dns.alidns.com/dns-query
-    #- https://doh.pub/dns-query
-    #- https://sm2.doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - https://doh.pub/dns-query
+    - https://sm2.doh.pub/dns-query
   direct-nameserver-follow-policy: false
   direct-nameserver:
     - https://dns.alidns.com/dns-query
