@@ -59,3 +59,4 @@
 ##将「目标IP」匹配转为「来源IP」匹配
 
 DOMAIN-SUFFIX,adobe.io
+IP-CIDR,1.81.0.81/32,no-resolve
