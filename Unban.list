@@ -69,6 +69,7 @@ IP-CIDR,69.63.197.153/32,no-resolve
 IP-CIDR,38.252.8.60/32,no-resolve
 IP-CIDR,103.196.20.187/32,no-resolve
 IP-CIDR,208.66.228.48/32,no-resolve
+IP-CIDR,189.24.106.195/32,no-resolve
 
 # Pear.inc
 DOMAIN-SUFFIX,akrineon.top
