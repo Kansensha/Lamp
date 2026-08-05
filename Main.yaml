@@ -776,8 +776,7 @@ dns:
     - geosite:category-games
   default-nameserver:
     - 223.5.5.5
-    # 腾讯云的 DNS 被劫持
-    #- 119.29.29.29
+    - 119.29.29.29
     - 114.114.114.114
   nameserver:
     # 53 端口容易被阻断，因此注释
@@ -794,12 +793,10 @@ dns:
   nameserver-policy:
     "geosite:cn,private":
       - 223.5.5.5
-      # 腾讯云的 DNS 被劫持
-      #- 119.29.29.29
+      - 119.29.29.29
       - 114.114.114.114
       # 采用更快的域名 DNS，故注释掉 DoH
       #- https://dns.alidns.com/dns-query
-      # 腾讯云的 DNS 被劫持
       #- https://doh.pub/dns-query
       #- https://sm2.doh.pub/dns-query
     "geosite:geolocation-!cn":
@@ -809,23 +806,19 @@ dns:
   respect-rules: true
   proxy-server-nameserver:
     - 223.5.5.5
-    # 腾讯云的 DNS 被劫持
-    #- 119.29.29.29
+    - 119.29.29.29
     - 114.114.114.114
     # 采用更快的域名 DNS，故注释掉 DoH
     #- https://dns.alidns.com/dns-query
-    # 腾讯云的 DNS 被劫持
     #- https://doh.pub/dns-query
     #- https://sm2.doh.pub/dns-query
   direct-nameserver-follow-policy: false
   direct-nameserver:
     - 223.5.5.5
-    # 腾讯云的 DNS 被劫持
-    #- 119.29.29.29
+    - 119.29.29.29
     - 114.114.114.114
     # 采用更快的域名 DNS，故注释掉 DoH
     #- https://dns.alidns.com/dns-query
-    # 腾讯云的 DNS 被劫持
     #- https://doh.pub/dns-query
     #- https://sm2.doh.pub/dns-query
 ##### END dns #####
